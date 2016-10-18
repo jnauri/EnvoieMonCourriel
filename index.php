@@ -3,6 +3,8 @@
 	<meta charset="utf-8" />
 
 	<title>Envoie Mon Courriel</title>
+
+	<link rel="stylesheet" href="/assets/style.css" media="" />
 </head>
 
 <body>
