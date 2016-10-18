@@ -10,7 +10,7 @@
 
 	<p>Envoie Mon Courriel est un petit site pour envoyer vos courriels gratuitement.</p>
 
-	<form action="courriel.php" method="post">
+	<form action="courriel.php" method="post" id="mon-formulaire">
 		<label for="courriel">Quel Courriel</label>
 		<input type="text" name="courriel" placeholder="Ex: moi@gmail.com" />
 
@@ -20,7 +20,8 @@
 		<label for="message">Mon Message</label>
 		<textarea name="message" placeholder="Ex: Bonjour, ...blabla..., Bonne soirée"></textarea>
 
-		<input type="submit">J'envoie</input>
+		<button form="mon-formulaire">J'envoie</button>
+		<button type="reset">Vider le formulaire</button>
 	</form>
 </body>
 </html>
