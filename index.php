@@ -14,6 +14,9 @@
 		<label for="courriel">Quel Courriel</label>
 		<input type="text" name="courriel" placeholder="Ex: moi@gmail.com" />
 
+		<label for="sujet">Sujet du message</label>
+		<input type="text" name="sujet" placeholder="Ex: Salut !" />
+
 		<label for="message">Mon Message</label>
 		<textarea name="message" placeholder="Ex: Bonjour, ...blabla..., Bonne soirée"></textarea>
 
