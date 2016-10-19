@@ -25,5 +25,7 @@
 		<button form="mon-formulaire">J'envoie</button>
 		<button type="reset">Vider le formulaire</button>
 	</form>
+
+	<p>Script créé par quelqu'un ... :D</p>
 </body>
 </html>
